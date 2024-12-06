@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    /* max-width: 100%; */
+}
+.corps .droite{
+    width: 50%;
+    height: 100%; 
+    
+}
+h1{
+    margin-top: 70px;
+    text-align: center;
+}
+body{
+    background-image: url(Fille-contente-1024x1024.png);
+    background-size: cover;
+}
+.corps{
+    display: flex;
+    width: 50rem;
+    margin: auto;
+    background: white;
+    margin-top: 3%;
+    border: 10px solid white;
+    justify-content: space-between;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    text-align: center;
+}
+.formulaire input{
+    padding: 6px;
+    border: none;
+    border-bottom: 1px solid black;  
+}
+.droite .nom{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+}
+.formulaire button{
+    width: 100px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top:  20px;
+}
+.icone input{
+    border-bottom: none;
+
+}
+.icone{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+.gauche img{
+    width: 20rem;
+    height: 100%;
+    
+}
+.nom input{
+    width: 8rem;
+}
